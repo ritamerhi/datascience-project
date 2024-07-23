@@ -10,23 +10,35 @@
     <div class="container">
         <h2>CO2 Emission Prediction</h2>
         <form action="/predict" method="post">
-            <label for="engine_size">Engine Size:</label>
-            <input type="number" step="any" name="engine_size" required><br>
+            <label for="Engine_Size">Engine Size:</label>
+            <input type="number" step="any" name="Engine_Size" required><br>
 
-            <label for="cylinders">Cylinders:</label>
-            <input type="number" name="cylinders" required><br>
+            <label for="Cylinders">Cylinders:</label>
+            <input type="number" name="Cylinders" required><br>
 
-            <label for="fuel_consumption_city">Fuel Consumption City (L/100 km):</label>
-            <input type="number" step="any" name="fuel_consumption_city" required><br>
+            <label for="Fuel_Consumption_in_City(L/100 km)">Fuel Consumption City (L/100 km):</label>
+            <input type="number" step="any" name="Fuel_Consumption_in_City(L/100 km)" required><br>
 
-            <label for="fuel_consumption_hwy">Fuel Consumption Hwy (L/100 km):</label>
-            <input type="number" step="any" name="fuel_consumption_hwy" required><br>
+            <label for="Fuel_Consumption_in_City_Hwy(L/100 km)">Fuel Consumption Hwy (L/100 km):</label>
+            <input type="number" step="any" name="Fuel_Consumption_in_City_Hwy(L/100 km)" required><br>
 
-            <label for="fuel_consumption_comb">Fuel Consumption Comb (L/100 km):</label>
-            <input type="number" step="any" name="fuel_consumption_comb" required><br>
+            <label for="Fuel_Consumption_comb(L/100km)">Fuel Consumption Comb (L/100 km):</label>
+            <input type="number" step="any" name="Fuel_Consumption_comb(L/100km)" required><br>
 
-            <label for="smog_level">Smog Level:</label>
-            <input type="number" step="any" name="smog_level" required><br>
+            <label for="Smog_Level">Smog Level:</label>
+            <input type="number" step="any" name="Smog_Level" required><br>
+
+            <label for="Make">Make:</label>
+            <input type="text" name="Make" required><br>
+
+            <label for="Model">Model:</label>
+            <input type="text" name="Model" required><br>
+
+            <label for="Vehicle_Class">Vehicle Class:</label>
+            <input type="text" name="Vehicle_Class" required><br>
+
+            <label for="Transmission">Transmission:</label>
+            <input type="text" name="Transmission" required><br>
 
             <button type="submit">Predict</button>
         </form>
@@ -34,3 +46,4 @@
     </div>
 </body>
 </html>
+
